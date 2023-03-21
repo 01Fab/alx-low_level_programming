@@ -1,19 +1,3 @@
-#include "main.h"
-
-/**
- * print_alphabet - prints the alphabe, in lowercase, followed by a new line
- */
-void print_alphabet(void)
-{
-	char ch;
-
-	ch = 'a';
-
-	while (ch <= 'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-
-	_putchar('\n');
-}
+[master a50e6bf] #include "main.h"
+ 1 file changed, 19 insertions(+)
+ create mode 100644 0x02-functions_nested_loops/1-alphabet.c
