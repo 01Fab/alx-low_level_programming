@@ -1,15 +1,22 @@
-#include "holberton.h"
-/**
- * _isalpha - tests whether a character is from the English alphabet.
- * @c: character to be checked.
- * Return: 1 if the character is an English character.
- * 0 if the character is not an English character.
- */
-int _isalpha(int c)
-{
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
-	else
-		return (0);
+#include "main.h"
 
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int r;
+
+    r = _isalpha('H');
+    _putchar(r + '0');
+    r = _isalpha('o');
+    _putchar(r + '0');
+    r = _isalpha(108);
+    _putchar(r + '0');
+    r = _isalpha(';');
+    _putchar(r + '0');
+    _putchar('\n');
+    return (0);
 }
